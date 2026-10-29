@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Сервер обновлений плагина «Система — Webmarka Feeds». Файл пишет tools/release.py в репозитории плагина. -->
+<updates>
+    <update>
+        <name>Webmarka Feeds</name>
+        <description>Webmarka Feeds 1.1.2 — ленты для Дзена, Google News и новостная карта сайта</description>
+        <element>wmarkafeeds</element>
+        <type>plugin</type>
+        <folder>system</folder>
+        <client>site</client>
+        <version>1.1.2</version>
+        <infourl title="Webmarka Feeds 1.1.2">https://github.com/bsakhanov/wmarka-updates/releases/tag/plg_system_wmarkafeeds-v1.1.2</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/plg_system_wmarkafeeds-v1.1.2/plg_system_wmarkafeeds-v1.1.2.zip</downloadurl>
+        </downloads>
+        <sha256>4e39346a5aa4d627d0862c8d50e1d74d3e04198501989af19fba325b622afe25</sha256>
+        <changelogurl>https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/plg_system_wmarkafeeds/changelog.xml</changelogurl>
+        <maintainer>Beibit Sakhanov</maintainer>
+        <maintainerurl>https://webmarka.kz</maintainerurl>
+        <targetplatform name="joomla" version="6\.[0-9]+" />
+        <php_minimum>8.1</php_minimum>
+    </update>
+</updates>

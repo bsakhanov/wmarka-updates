@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Журнал изменений для Joomla («Система → Обновление → Расширения» → «Журнал изменений»). Новую версию добавляйте сверху. -->
+<changelogs>
+    <changelog>
+        <element>wmarkafeeds</element>
+        <type>plugin</type>
+        <version>1.1.2</version>
+        <addition>
+            <item>Сервер обновлений: новая версия появляется в «Система → Обновление → Расширения» и ставится из админки, архив проверяется по SHA-256. Версию 1.1.2 нужно один раз поставить вручную — дальше обновления придут сами.</item>
+            <item>Update server: a new version appears in “System → Update → Extensions” and installs from the admin panel; the archive is verified by SHA-256. Install 1.1.2 manually once — later updates arrive on their own.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>wmarkafeeds</element>
+        <type>plugin</type>
+        <version>1.1.1</version>
+        <fix>
+            <item>Обрезка текста лент больше не режет буквы: rtrim() со знаками «—», «–», «…» в списке работает с байтами и срезала второй байт таких букв, как «р» и «ғ», — в ленты могли уходить битые буквы. Хвост теперь снимается по знакам.</item>
+            <item>Feed text truncation no longer cuts letters in half: rtrim() with “—”, “–”, “…” in its list works on bytes and stripped the second byte of letters such as “р” and “ғ”, so broken letters could reach the feeds. The tail is now trimmed by characters.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>wmarkafeeds</element>
+        <type>plugin</type>
+        <version>1.1.0</version>
+        <addition>
+            <item>Формат лент вынесен в макеты (dzen, googlerss, newssitemap), шаблон переопределяет их в html/plg_system_wmarkafeeds/; результат проверяется, при ошибке — макет плагина. «Длина ленты» действует и на ленты меток; настройка «Внутренние ссылки-якоря».</item>
+            <item>Feed formats moved to layouts (dzen, googlerss, newssitemap) that a template can override in html/plg_system_wmarkafeeds/; the output is validated, falling back to the plugin layout. “Feed length” also applies to tag feeds; new “Internal anchor links” setting.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>wmarkafeeds</element>
+        <type>plugin</type>
+        <version>1.0.0</version>
+        <addition>
+            <item>Первый выпуск: ленты для Дзена и Google News, новостная карта сайта, кеш и ответ 304, исправление лимита штатных лент.</item>
+            <item>First release: feeds for Dzen and Google News, a news sitemap, caching with 304 responses, a fix for the core feed limit.</item>
+        </addition>
+    </changelog>
+</changelogs>
