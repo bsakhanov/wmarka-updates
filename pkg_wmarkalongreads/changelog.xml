@@ -4,6 +4,15 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.0.3</version>
+        <fix>
+            <item>Лонгрид показывал только верхнее меню: при переписывании относительных адресов замена url(…) задевала код скриптов (toDataURL(…), createObjectURL(…)), скрипт лонгрида падал, и главы оставались скрытыми. Скрипты больше не меняются; адреса переписываются только в атрибутах тегов, блоках style и атрибутах style.</item>
+            <item>A longread showed only its top menu: rewriting relative URLs touched script code (toDataURL(…), createObjectURL(…)), the longread script failed and the chapters stayed hidden. Scripts are no longer modified; URLs are rewritten only in tag attributes, style blocks and style attributes.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.0.2</version>
         <fix>
             <item>При включённом кеше Joomla повторный заход на лонгрид выводил его внутри шаблона сайта (стили сайта поверх стилей лонгрида — страница выглядела пустой): вид брался из кеша без выбора шаблона страницы лонгрида. Виды компонента больше не кешируются.</item>
