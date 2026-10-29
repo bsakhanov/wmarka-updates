@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Журнал изменений для Joomla. Новую версию добавляйте сверху. -->
+<changelogs>
+    <changelog>
+        <element>wmarkacanon</element>
+        <type>plugin</type>
+        <version>1.0.1</version>
+        <addition>
+            <item>Сервер обновлений: новые версии приходят в «Система → Обновление → Расширения»; казахский перевод настроек.</item>
+            <item>Update server: new versions arrive in “System → Update → Extensions”; Kazakh translation of the options.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>wmarkacanon</element>
+        <type>plugin</type>
+        <version>1.0.0</version>
+        <addition>
+            <item>Единый адрес материала рубрики главного пункта меню: правило сборки ссылок, переадресация 301 дублей и алиаса главной, журнал перенаправлений.</item>
+            <item>A single URL for articles of the home menu item category: a link-building rule, 301 redirects of duplicates and of the home alias, a redirect log.</item>
+        </addition>
+    </changelog>
+</changelogs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Журнал изменений для Joomla. Новую версию добавляйте сверху. -->
+<changelogs>
+    <changelog>
+        <element>wmarkalongreads</element>
+        <type>plugin</type>
+        <version>1.1.1</version>
+        <addition>
+            <item>Отдельный репозиторий и собственный сервер обновлений: плагин обновляется в «Система → Обновление → Расширения» и вместе с пакетом Webmarka Longreads.</item>
+            <item>A separate repository and its own update server: the plugin updates in “System → Update → Extensions” and together with the Webmarka Longreads package.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>wmarkalongreads</element>
+        <type>plugin</type>
+        <version>1.1.0</version>
+        <addition>
+            <item>Первый выпуск в составе Webmarka Longreads 1.1.0: лонгриды в карте сайта JL Sitemap с датой последнего изменения и языковыми версиями.</item>
+            <item>First release as part of Webmarka Longreads 1.1.0: longreads in the JL Sitemap with the last modification date and language versions.</item>
+        </addition>
+    </changelog>
+</changelogs>
