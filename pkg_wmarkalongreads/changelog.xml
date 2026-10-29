@@ -4,6 +4,15 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.0.2</version>
+        <fix>
+            <item>При включённом кеше Joomla повторный заход на лонгрид выводил его внутри шаблона сайта (стили сайта поверх стилей лонгрида — страница выглядела пустой): вид брался из кеша без выбора шаблона страницы лонгрида. Виды компонента больше не кешируются.</item>
+            <item>With Joomla caching on, a repeat visit rendered the longread inside the site template (site styles on top of the longread's own, the page looked empty): the view came from cache without selecting the longread page template. Component views are no longer cached.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.0.1</version>
         <fix>
             <item>После переноса и смены версии очищается и кеш меню: при включённом кеше Joomla гости видели прежние «Пустые страницы» (переключатель языков исследования вёл на главную), пока кеш не очищали вручную.</item>
