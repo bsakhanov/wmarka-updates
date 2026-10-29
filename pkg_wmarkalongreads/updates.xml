@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Сервер обновлений пакета Webmarka Longreads. Файл пишет build.py --updates в репозитории компонента. -->
+<!-- Сервер обновлений пакета Webmarka Longreads. Файл пишет build.py (ключ updates) в репозитории компонента. -->
 <updates>
     <update>
         <name>Webmarka Longreads</name>
