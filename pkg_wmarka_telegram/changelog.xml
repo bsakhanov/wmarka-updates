@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+    <changelog>
+        <element>pkg_wmarka_telegram</element>
+        <type>package</type>
+        <version>1.2.3</version>
+        <change>
+            <item>The update server moved from webmarka.kz (which answered 404) to the public repository github.com/bsakhanov/wmarka-updates. Install 1.2.3 manually once; later updates arrive in System → Update.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_telegram</element>
+        <type>package</type>
+        <version>1.2.2</version>
+        <fix>
+            <item>Fixed: text truncation with an ellipsis cut letters in half. rtrim() with “—” and “–” in its character list works on bytes and stripped the second byte of letters such as “р” and “ғ”, so the start of a post could end with a broken letter. The tail is now trimmed by characters (preg_replace with the u flag).</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_telegram</element>
+        <type>package</type>
+        <version>1.2.1</version>
+        <fix>
+            <item>Fixed: custom fields are stored in the article text as {field N} tags, and the plugin took the lead from the database as is, so a tag could end up in the post. The lead now goes through the Joomla fields plugin before cleaning and the tag is replaced by the field value; tags that stay unresolved (other plugins' shortcodes such as {gallery} or {loadmodule}, a field the article does not have) are cut, as are scripts that plugins insert into the text.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_telegram</element>
+        <type>package</type>
+        <version>1.2.0</version>
+        <addition>
+            <item>«Remove mentions of other media» (on by default): the lead of a post loses phrases like «…, сообщает Tengrinews.kz со ссылкой на Euronews», «Как пишет Zakon.kz, …», «по данным агентства Anadolu», «(Kursiv)», Kazakh «деп хабарлайды…» and English «…, Reuters reported». The article on the site keeps its attribution; official sources stay.</item>
+            <item>Media are recognised by a built-in list of Kazakhstani, Central Asian and international outlets, by extra names from the settings, by a name in quotation marks right after «сообщает»/«пишет», and by anything that looks like a site address. The cleaning happens before the lead is shortened, so a cut attribution no longer survives as «…, сообщает…».</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_telegram</element>
+        <type>package</type>
+        <version>1.1.1</version>
+        <addition>
+            <item>«Hashtags, at most» (default 5): long tag lists no longer turn into a wall of hashtags; unpublished tags are left out.</item>
+            <item>When a post goes out without its photo, the reason is kept and listed on saving the settings, together with other recent problems; the settings also say when hashtags are switched off.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_telegram</element>
+        <type>package</type>
+        <version>1.1.0</version>
+        <addition>
+            <item>Interval between posts: at most one new post per channel in the chosen time, so a daily issue reaches the channel over hours instead of at once.</item>
+            <item>New posts go out in the order of the articles' publication time on the site, not in the order of installation; edits and removals go first and never wait.</item>
+            <item>Quiet hours in the site time zone: new posts wait for the morning.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_telegram</element>
+        <type>package</type>
+        <version>1.0.1</version>
+        <fix>
+            <item>Articles saved from the command line (issue packages installed with cli/joomla.php, the cron scheduler) were not queued: the console does not know the site address. The address now comes from «Site address», «live_site» or the last web request; saving the settings warns when none is known.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_telegram</element>
+        <type>package</type>
+        <version>1.0.0</version>
+        <addition>
+            <item>Posts articles to Telegram channels when they become public: by the publish button, by an assistant (Webmarka MCP), by a workflow transition, or at the time of a scheduled publication.</item>
+            <item>Photo post with caption or text post with a large link preview; HTML template with {title}, {intro}, {url}, {link}, {category}, {hashtags}; the lead is shortened to Telegram's limits so the headline and link always stay.</item>
+            <item>Channels per language and category; one post per article and channel; editing updates the post, unpublishing can remove it, publishing again posts again.</item>
+            <item>Guard against old articles (default 24 hours), per-article «Do not post to Telegram» option, canonical address template.</item>
+            <item>Queue with retries (Telegram rate limits honoured), Joomla scheduler task every five minutes, sending after the answer has gone to the browser; bot and channel rights checked on saving the settings.</item>
+        </addition>
+    </changelog>
+</changelogs>

@@ -5,8 +5,9 @@ Joomla проверяет новые версии расширений и ска
 | Расширение | Сервер обновлений (адрес из манифеста) | Выпуски |
 | --- | --- | --- |
 | Webmarka Feeds (`plg_system_wmarkafeeds`) | `https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/plg_system_wmarkafeeds/updates.xml` | теги `plg_system_wmarkafeeds-vВЕРСИЯ` |
+| Webmarka Telegram (`pkg_wmarka_telegram`) | `https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/pkg_wmarka_telegram/updates.xml` | теги `pkg_wmarka_telegram-vВЕРСИЯ` (до 1.2.3 сервер был на webmarka.kz) |
 
-Файлы пишет сценарий выпуска в репозитории самого расширения (для Webmarka Feeds — `tools/release.py`); руками здесь ничего не правится. Тег выпуска — `<элемент>-v<версия>`, к выпуску прикладываются архив расширения и `SHA256SUMS.txt`; SHA-256 архива записан и в `updates.xml`, Joomla сверяет его перед установкой.
+Файлы пишет сценарий выпуска в репозитории самого расширения (Webmarka Feeds — `tools/release.py`, Webmarka Telegram — `tools/release.sh`); руками здесь ничего не правится. Тег выпуска — `<элемент>-v<версия>`, к выпуску прикладываются архив расширения и `SHA256SUMS.txt`; SHA-256 архива записан и в `updates.xml`, Joomla сверяет его перед установкой.
 
 Открытые расширения Webmarka (модули Webmarka Articles, шаблоны wmarka и wmarka clean) держат сервер обновлений в своих репозиториях.
 
