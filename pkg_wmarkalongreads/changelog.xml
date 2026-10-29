@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Журнал изменений для Joomla. Новую версию добавляйте сверху. -->
+<changelogs>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
+        <version>1.0.0</version>
+        <addition>
+            <item>Первый выпуск: лонгриды в собственном оформлении; загрузка HTML или ZIP через админку, каждая загрузка — новая версия с предпросмотром и откатом; раздел «Список лонгридов» с карточками на языке страницы; голова страницы (заголовок, описание, hreflang, Open Graph, JSON-LD) от компонента; скрипты только у авторов с отдельным правом; перенос лонгридов из «Пустых страниц».</item>
+            <item>First release: longreads in their own design; HTML or ZIP upload in the admin panel, each upload is a new version with preview and rollback; a Longreads list with cards in the page language; the page head (title, description, hreflang, Open Graph, JSON-LD) from the component; scripts only for authors with a separate permission; migration from Blank pages.</item>
+        </addition>
+    </changelog>
+</changelogs>
