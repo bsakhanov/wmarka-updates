@@ -4,6 +4,15 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.1.0</version>
+        <addition>
+            <item>Плагин «JL Sitemap — Webmarka Longreads»: лонгриды в карте сайта JL Sitemap с датой последнего изменения и языковыми версиями. Без него страницы лонгридов выпадали из карты при первой пересборке после переноса с «Пустых страниц». Плагин ставится с пакетом и включается сам.</item>
+            <item>The “JL Sitemap — Webmarka Longreads” plugin: longreads in the JL Sitemap with the last modification date and language versions. Without it, longread pages dropped out of the sitemap on the first rebuild after migrating from Blank pages. The plugin is installed with the package and enabled automatically.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.0.3</version>
         <fix>
             <item>Лонгрид показывал только верхнее меню: при переписывании относительных адресов замена url(…) задевала код скриптов (toDataURL(…), createObjectURL(…)), скрипт лонгрида падал, и главы оставались скрытыми. Скрипты больше не меняются; адреса переписываются только в атрибутах тегов, блоках style и атрибутах style.</item>
