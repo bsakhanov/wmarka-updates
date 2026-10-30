@@ -4,6 +4,15 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.2.0</version>
+        <addition>
+            <item>Счётчики сайта на странице лонгрида: Яндекс Метрика и Google Analytics по ID и «Код перед &lt;/body&gt;» из стиля шаблона сайта, модули позиции counters (скрытые), с правилом «не показывать администраторам». Раньше внешние счётчики страницы лонгридов не видели. Новая настройка «Счётчики сайта на странице лонгрида» (по умолчанию «Да»).</item>
+            <item>Site counters on the longread page: Yandex Metrica and Google Analytics by ID and the “Code before &lt;/body&gt;” from the site template style, plus counters position modules (hidden), honouring the “do not show to administrators” rule. Previously external counters did not see longread pages. New option “Site counters on the longread page” (default “Yes”).</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.1.1</version>
         <change>
             <item>Плагин «JL Sitemap — Webmarka Longreads» переехал в свой репозиторий и получил свой сервер обновлений; пакет ставит его версию 1.1.1. Компонент и шаблон не менялись.</item>

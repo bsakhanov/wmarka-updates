@@ -3,16 +3,16 @@
 <updates>
     <update>
         <name>Webmarka Longreads</name>
-        <description>Webmarka Longreads 1.1.1</description>
+        <description>Webmarka Longreads 1.2.0</description>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
         <client>site</client>
-        <version>1.1.1</version>
-        <infourl title="Webmarka Longreads 1.1.1">https://github.com/bsakhanov/wmarka-updates/releases/tag/pkg_wmarkalongreads-v1.1.1</infourl>
+        <version>1.2.0</version>
+        <infourl title="Webmarka Longreads 1.2.0">https://github.com/bsakhanov/wmarka-updates/releases/tag/pkg_wmarkalongreads-v1.2.0</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/pkg_wmarkalongreads-v1.1.1/pkg_wmarkalongreads-v1.1.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/pkg_wmarkalongreads-v1.2.0/pkg_wmarkalongreads-v1.2.0.zip</downloadurl>
         </downloads>
-        <sha256>d8d09f02993a9ced592e8c2e0b6c89988839b0b83c5c718356a01ea1e15064fd</sha256>
+        <sha256>24e395796a488353af61793398e5289e99c2a82c62092c5c0177fa80ace087fd</sha256>
         <changelogurl>https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/pkg_wmarkalongreads/changelog.xml</changelogurl>
         <maintainer>Beibit Sakhanov</maintainer>
         <maintainerurl>https://webmarka.kz</maintainerurl>
