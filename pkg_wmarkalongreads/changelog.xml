@@ -4,6 +4,19 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.5.0</version>
+        <addition>
+            <item>Импорт одного HTML-файла с несколькими языками: блоки с lang режутся по языкам; если язык выбирает страница — у всех карточек тот же файл. Поля — из метатегов с lang; паспорт можно встроить в страницу.</item>
+            <item>Import of one HTML file with several languages: lang blocks are cut by language; if the page picks the language, every longread gets the same file. Fields come from meta tags with lang; the passport can be embedded in the page.</item>
+        </addition>
+        <change>
+            <item>Скрипты с данными JSON (application/json, application/ld+json) не считаются исполняемым кодом.</item>
+            <item>JSON data scripts (application/json, application/ld+json) no longer count as executable code.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.4.0</version>
         <addition>
             <item>Импорт одним архивом: кнопка «Импорт» в списке; языки папками (ru/, kk/, en/) или файлами (index.ru.html …); новые карточки или новые версии существующих по ключу языковых версий; пробный прогон перед импортом.</item>
