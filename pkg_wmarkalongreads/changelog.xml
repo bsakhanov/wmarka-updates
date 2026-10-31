@@ -4,6 +4,17 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.6.0</version>
+        <addition>
+            <item>Метки {LOGO}, {LOGO_WHITE}, {AUTHOR}, {AUTHOR_URL}, {SITE}, {BASE}.</item>
+            <item>Placeholders {LOGO}, {LOGO_WHITE}, {AUTHOR}, {AUTHOR_URL}, {SITE}, {BASE}.</item>
+            <item>Фирменная полоса по просьбе лонгрида (data-wlr-header="brand" или "header": "brand" в паспорте); поле в карточке; логотип и цвета — в настройках «Фирменные элементы».</item>
+            <item>Brand bar on request (data-wlr-header="brand" or "header": "brand" in the passport); a form field; logo and colours in the “Brand elements” options.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.5.0</version>
         <addition>
             <item>Импорт одного HTML-файла с несколькими языками: блоки с lang режутся по языкам; если язык выбирает страница — у всех карточек тот же файл. Поля — из метатегов с lang; паспорт можно встроить в страницу.</item>
