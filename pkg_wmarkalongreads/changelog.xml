@@ -4,6 +4,21 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.3.0</version>
+        <addition>
+            <item>Паспорт лонгрида: при загрузке версии пустые поля карточки заполняются из файла — паспорта longread.json, разметки schema.org, метатегов и текста страницы; cover.jpg и og.jpg становятся обложками. Заголовок можно не вводить. Заполненные поля не меняются; язык сохранённой карточки — никогда.</item>
+            <item>Longread passport: when a version is uploaded, empty form fields are filled from the file — the longread.json passport, schema.org markup, meta tags and page text; cover.jpg and og.jpg become the covers. The title may be left empty. Filled fields are not changed; the language of a saved longread never is.</item>
+            <item>Расхождения файла с карточкой — таблицей с кнопками «Применить» и «Применить всё».</item>
+            <item>Differences between the file and the form are shown in a table with “Apply” and “Apply all” buttons.</item>
+            <item>Проверка карточки и страницы: заголовок в браузере, Description, анонс, обложка, ссылка на сайт, логотип, автор. Пределы — в настройках «Проверки карточки».</item>
+            <item>Form and page check: browser title, Description, teaser, cover, link to the site, logo, author. Limits are in the “Form checks” options.</item>
+            <item>Поля «Автор материала» и «Ссылка на автора»: автор в JSON-LD (организация или человек) и метатег author.</item>
+            <item>“Author” and “Author link” fields: the author in JSON-LD (organisation or person) and the author meta tag.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.2.0</version>
         <addition>
             <item>Счётчики сайта на странице лонгрида: Яндекс Метрика и Google Analytics по ID и «Код перед &lt;/body&gt;» из стиля шаблона сайта, модули позиции counters (скрытые), с правилом «не показывать администраторам». Раньше внешние счётчики страницы лонгридов не видели. Новая настройка «Счётчики сайта на странице лонгрида» (по умолчанию «Да»).</item>
