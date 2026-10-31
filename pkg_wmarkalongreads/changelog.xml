@@ -4,6 +4,15 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.7.0</version>
+        <addition>
+            <item>Обложки по шаблону: обложка карточки и картинка для соцсетей рисуются для лонгридов без своих картинок и обновляются после смены заголовка; кнопки в карточке и в списке; настройки оформления.</item>
+            <item>Template covers: a card cover and social image are drawn for longreads without their own images and updated after title changes; buttons in the form and the list; design options.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.6.0</version>
         <addition>
             <item>Метки {LOGO}, {LOGO_WHITE}, {AUTHOR}, {AUTHOR_URL}, {SITE}, {BASE}.</item>
