@@ -4,6 +4,19 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.4.0</version>
+        <addition>
+            <item>Импорт одним архивом: кнопка «Импорт» в списке; языки папками (ru/, kk/, en/) или файлами (index.ru.html …); новые карточки или новые версии существующих по ключу языковых версий; пробный прогон перед импортом.</item>
+            <item>One-archive import: an “Import” button in the list; languages as folders (ru/, kk/, en/) or files (index.ru.html …); new longreads or new versions of existing ones by the language versions key; a dry run before import.</item>
+            <item>Паспорт для нескольких языков: раздел languages в longread.json и паспорт языка (kk/longread.json, longread.kk.json).</item>
+            <item>Multilingual passport: a languages section in longread.json and per-language passports (kk/longread.json, longread.kk.json).</item>
+            <item>Входной файл версии может лежать в подпапке; относительные пути — от его папки.</item>
+            <item>A version's entry file may sit in a subfolder; relative paths resolve from its folder.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.3.0</version>
         <addition>
             <item>Паспорт лонгрида: при загрузке версии пустые поля карточки заполняются из файла — паспорта longread.json, разметки schema.org, метатегов и текста страницы; cover.jpg и og.jpg становятся обложками. Заголовок можно не вводить. Заполненные поля не меняются; язык сохранённой карточки — никогда.</item>
