@@ -4,6 +4,19 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.7.1</version>
+        <fix>
+            <item>Разметка schema.org и встроенный паспорт из файла лонгрида не выводятся на страницу (не было бы двойной разметки).</item>
+            <item>schema.org markup and the embedded passport from the longread file are no longer output on the page (no duplicate markup).</item>
+        </fix>
+        <addition>
+            <item>Руководство: технические требования к лонгриду.</item>
+            <item>Guide: technical requirements for a longread.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.7.0</version>
         <addition>
             <item>Обложки по шаблону: обложка карточки и картинка для соцсетей рисуются для лонгридов без своих картинок и обновляются после смены заголовка; кнопки в карточке и в списке; настройки оформления.</item>
