@@ -9,8 +9,9 @@ Joomla проверяет новые версии расширений и ска
 | Webmarka Longreads (`pkg_wmarkalongreads`) | `https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/pkg_wmarkalongreads/updates.xml` | теги `pkg_wmarkalongreads-vВЕРСИЯ` |
 | JL Sitemap — Webmarka Longreads (`plg_jlsitemap_wmarkalongreads`) | `https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/plg_jlsitemap_wmarkalongreads/updates.xml` | теги `plg_jlsitemap_wmarkalongreads-vВЕРСИЯ` |
 | Webmarka Canonical (`plg_system_wmarkacanon`) | `https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/plg_system_wmarkacanon/updates.xml` | теги `plg_system_wmarkacanon-vВЕРСИЯ` |
+| Webmarka MCP (`pkg_wmarka_mcp`) | `https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/pkg_wmarka_mcp/updates.xml` | теги `pkg_wmarka_mcp-vВЕРСИЯ` (до 1.6.1 сервер был на webmarka.kz) |
 
-Файлы пишет сценарий выпуска в репозитории самого расширения (Webmarka Feeds — `tools/release.py`, Webmarka Telegram — `tools/release.sh`, Webmarka Longreads — `build.py --updates`, плагины JL Sitemap и Canonical — `tools/release.py`); руками здесь ничего не правится. Тег выпуска — `<элемент>-v<версия>`, к выпуску прикладываются архив расширения и `SHA256SUMS.txt`; SHA-256 архива записан и в `updates.xml`, Joomla сверяет его перед установкой.
+Файлы пишет сценарий выпуска в репозитории самого расширения (Webmarka Feeds — `tools/release.py`, Webmarka Telegram — `tools/release.sh`, Webmarka Longreads — `build.py --updates`, плагины JL Sitemap и Canonical — `tools/release.py`, Webmarka MCP — `tools/release.sh`); руками здесь ничего не правится. Тег выпуска — `<элемент>-v<версия>`, к выпуску прикладываются архив расширения и `SHA256SUMS.txt`; SHA-256 архива записан и в `updates.xml`, Joomla сверяет его перед установкой.
 
 Открытые расширения Webmarka (модули Webmarka Articles, шаблоны wmarka и wmarka clean) держат сервер обновлений в своих репозиториях.
 

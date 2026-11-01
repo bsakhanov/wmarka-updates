@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.6.1</version>
+        <change>
+            <item>The update server moved from webmarka.kz to the public repository github.com/bsakhanov/wmarka-updates. Install 1.6.1 manually once; later updates arrive in System → Update.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.6.0</version>
+        <addition>
+            <item>Search fields at once: page_title and meta description are written with every new article; length rules warn, values set by people are kept.</item>
+            <item>Tag registry: joomla_tags_suggest picks tags for a text in its language; joomla_tag_create proposes a new tag in every site language and creates it after approval.</item>
+        </addition>
+        <change>
+            <item>One tag switch: tag_create now covers the registry policy of the VRK line; the update carries a stored tag_policy over.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.4.1</version>
+        <fix>
+            <item>Article images are stored with every key of the field, like the Joomla form does: no more PHP warnings in article modules; the update completes articles saved earlier.</item>
+            <item>Caption format, frame type names and the default house style use the site's default language.</item>
+            <item>A repeated title gets «-2», «-3» in its alias; a number at the end of the title is no longer changed.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.4.0</version>
+        <addition>
+            <item>Editorial workflow: joomla_workflow_overview, joomla_article_transitions and joomla_article_transition move articles through Joomla workflow stages; each user sees and runs only the transitions of their role («Execute transition» permission).</item>
+            <item>joomla_article_create accepts a transition to run right after saving; article reading and search show the stage, search filters by stage.</item>
+            <item>A transition that publishes respects the option «Allow publishing».</item>
+        </addition>
+        <change>
+            <item>With workflows on, joomla_articles_set_state is hidden and publishing on create is refused: the status follows the stage. Diagnostics no longer warn about workflows and check the publishing workflow plugin instead.</item>
+        </change>
+        <fix>
+            <item>Editors without «Edit State» could not edit an article that had a publication date (Joomla rejected the locked field). Locked fields are now left out; a change of them is refused with a clear message.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.3.0</version>
+        <addition>
+            <item>Photo library: four tools — joomla_media_search, joomla_media_get, joomla_media_upload, joomla_media_describe.</item>
+            <item>Upload by link or base64 the way the article editor does: folder, file name and processing follow Content Image Upload when it is installed; otherwise phone photos are turned by EXIF and lose their metadata (camera, GPS). The same photo is never stored twice.</item>
+            <item>Register of photos: caption, alt text, credit, source, license, frame type from a closed vocabulary and up to three tags; a credit is required by default.</item>
+            <item>The assistant sees a preview of the photo before it writes alt text or chooses a frame type.</item>
+            <item>Photos uploaded in the editor or the media manager are listed as waiting for a description.</item>
+            <item>Article images: alt text and caption («caption. Photo: credit») come from the library; Joomla's width and height are written with the image.</item>
+            <item>Links are fetched only over http(s) from public addresses, every redirect checked.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.2.0</version>
+        <addition>
+            <item>Tag policy: by default the assistant uses existing tags only; an unknown tag is refused with up to five similar existing tags (word order, endings, Kazakh letters, typos). Option «Assistant creates new tags».</item>
+            <item>Tags that differ only in case, «ё», spacing or punctuation resolve to the existing tag.</item>
+            <item>AI mark: the server sets a chosen article custom field on every article created through an assistant (optionally also on rewritten ones); the assistant cannot set or clear it.</item>
+            <item>Diagnostics check for the AI mark field; site_info reports the tag policy and the mark field.</item>
+        </addition>
+        <change>
+            <item>Behaviour change on update: assistants no longer create tags until the option is turned on.</item>
+        </change>
+        <fix>
+            <item>Batch: tags are resolved before anything is moved, so an unknown tag no longer leaves the batch half done.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.1.1</version>
+        <change>
+            <item>The update server moved to webmarka.kz (https://webmarka.kz/updates/com_wmarka_mcp/); the code repository is private.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.1.0</version>
+        <addition>
+            <item>Authors may connect assistants by default; tools and instructions follow the account's Joomla permissions.</item>
+            <item>Consent screen for authors; site editing links for users without administrator access.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.0.0</version>
+        <addition>
+            <item>MCP server inside Joomla 6 for both protocol eras (2026-07-28 and 2025-11-25).</item>
+            <item>OAuth 2.1 sign-in with Joomla accounts: CIMD, DCR, PKCE, refresh token rotation, revocation.</item>
+            <item>15 tools for articles, categories, tags, versions, cache, page checks and typography; 3 prompts.</item>
+            <item>Consent screen, administrator overview with diagnostics, connection management.</item>
+        </addition>
+    </changelog>
+</changelogs>
