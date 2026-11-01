@@ -3,6 +3,23 @@
     <changelog>
         <element>pkg_wmarka_mcp</element>
         <type>package</type>
+        <version>1.6.3</version>
+        <fix>
+            <item>joomla_article_update: an edit of the article text was silently lost on Joomla 6 (stored introtext and fulltext overwrote the new text); the answer said "updated: text" while the text in the database stayed unchanged. Now the new text is saved.</item>
+            <item>joomla_article_update: an edit was refused with "Field required: …" when the article has a required custom field. The current custom field values now travel with every save; values passed by the assistant win.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
+        <version>1.6.2</version>
+        <addition>
+            <item>Option «Do not run on the assistant's changes»: listed plugins stay silent when the assistant saves or publishes. Default: Webmarka Telegram autoposting (system/wmarka_telegram), so the assistant's publications are not sent to the channel; editors keep autoposting.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
         <version>1.6.1</version>
         <change>
             <item>The update server moved from webmarka.kz to the public repository github.com/bsakhanov/wmarka-updates. Install 1.6.1 manually once; later updates arrive in System → Update.</item>
