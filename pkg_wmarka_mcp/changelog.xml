@@ -3,6 +3,19 @@
     <changelog>
         <element>pkg_wmarka_mcp</element>
         <type>package</type>
+        <version>1.7.0</version>
+        <addition>
+            <item>A refused workflow transition reports the reason the workflow plugin gave (for example: no cover, no tags).</item>
+            <item>Site profiles: media/wmarka_mcp/profiles/*.json fill unset settings and add rights on install and update; SiteProfile::applyFolder() for site packages.</item>
+            <item>House style sample in the package; the journal keeps the versions each call produced, linked to the content history.</item>
+        </addition>
+        <change>
+            <item>«Do not run on the assistant's changes» is opt-in: empty by default, so the assistant's publications reach the channel through the site's autoposting plugin like anyone's; add system/wmarka_telegram to silence it.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
         <version>1.6.3</version>
         <fix>
             <item>joomla_article_update: an edit of the article text was silently lost on Joomla 6 (stored introtext and fulltext overwrote the new text); the answer said "updated: text" while the text in the database stayed unchanged. Now the new text is saved.</item>
