@@ -4,6 +4,19 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.8.0</version>
+        <addition>
+            <item>Поле «Брать файлы у другой карточки»: языковые карточки показывают одни и те же файлы, архив загружается один раз — в карточку-источник.</item>
+            <item>Field “Take files from another card”: the language cards show the same files, and the archive is uploaded once, to the source card.</item>
+        </addition>
+        <fix>
+            <item>Админка и сайт выбирают версию одинаково: у карточки с источником — версию источника. Источник нельзя удалить, пока у него берут файлы.</item>
+            <item>The admin panel and the site pick the version the same way: a card with a source uses the source’s version. A source cannot be deleted while other cards take files from it.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.7.1</version>
         <fix>
             <item>Разметка schema.org и встроенный паспорт из файла лонгрида не выводятся на страницу (не было бы двойной разметки).</item>
