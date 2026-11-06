@@ -3,6 +3,15 @@
     <changelog>
         <element>pkg_wmarkamedia</element>
         <type>package</type>
+        <version>2.1.5</version>
+        <change>
+            <item>Требования: Joomla 6.0 и выше, PHP 8.4 и выше — не ниже. Установщик пакета отказывает на старых версиях; сайту на PHP ниже 8.4 Joomla это обновление не предлагает.</item>
+            <item>Requirements: Joomla 6.0 or later and PHP 8.4 or later, no lower. The package installer refuses older versions; Joomla does not offer this update to a site on PHP below 8.4.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkamedia</element>
+        <type>package</type>
         <version>2.1.4</version>
         <security>
             <item>Сервер сайта больше не ходит по ссылкам из статей во внутреннюю сеть хостинга (127.0.0.1, частные адреса, 169.254.169.254) — ни прямо, ни переходом, который отдаёт чужой сайт: адрес проверяется до запроса и на каждом переходе, соединение закрепляется за проверенным адресом.</item>

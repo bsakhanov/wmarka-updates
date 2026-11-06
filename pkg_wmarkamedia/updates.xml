@@ -3,20 +3,20 @@
 <updates>
     <update>
         <name>Wmarka Media</name>
-        <description>Wmarka Media 2.1.4</description>
+        <description>Wmarka Media 2.1.5</description>
         <element>pkg_wmarkamedia</element>
         <type>package</type>
         <client>site</client>
-        <version>2.1.4</version>
-        <infourl title="Wmarka Media 2.1.4">https://github.com/bsakhanov/wmarka-updates/releases/tag/pkg_wmarkamedia-v2.1.4</infourl>
+        <version>2.1.5</version>
+        <infourl title="Wmarka Media 2.1.5">https://github.com/bsakhanov/wmarka-updates/releases/tag/pkg_wmarkamedia-v2.1.5</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/pkg_wmarkamedia-v2.1.4/pkg_wmarkamedia-v2.1.4.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/pkg_wmarkamedia-v2.1.5/pkg_wmarkamedia-v2.1.5.zip</downloadurl>
         </downloads>
-        <sha256>79c8f004f71f57c7039493507c06110c658ade2a3242bfd4b2bb2376a4a9a56c</sha256>
+        <sha256>721dd29289f614b435b578202e3f0b64c3dad9d66c7f8418851a2e4782545a41</sha256>
         <changelogurl>https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/pkg_wmarkamedia/changelog.xml</changelogurl>
         <maintainer>Beibit Sakhanov</maintainer>
         <maintainerurl>https://webmarka.kz</maintainerurl>
-        <targetplatform name="joomla" version="(5|6)\.[0-9]+" />
-        <php_minimum>8.1</php_minimum>
+        <targetplatform name="joomla" version="6\.[0-9]+" />
+        <php_minimum>8.4</php_minimum>
     </update>
 </updates>
