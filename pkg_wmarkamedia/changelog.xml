@@ -3,6 +3,19 @@
     <changelog>
         <element>pkg_wmarkamedia</element>
         <type>package</type>
+        <version>2.1.6</version>
+        <fix>
+            <item>Автор, строка об авторском праве и условия использования из файла снимка (EXIF, IPTC, XMP) больше не выбрасываются при загрузке: они записываются в пустые «Автор кадра», «Лицензия» и «Источник» и остаются в файле блоком XMP. GPS, камера, серийный номер и контакты фотографа по-прежнему удаляются.</item>
+            <item>The author, the copyright line and the usage terms found in the photo file (EXIF, IPTC, XMP) are no longer thrown away on upload: they are written to the empty Credit, Licence and Source fields and stay in the file as an XMP block. GPS, camera, serial number and the photographer's contacts are still removed.</item>
+        </fix>
+        <change>
+            <item>WebP и PNG, которые не надо ни поворачивать, ни уменьшать, теперь очищаются от метаданных так же, как JPEG. Настройка «Сохранять автора и права из файла» (по умолчанию да).</item>
+            <item>WebP and PNG files that need no rotation or resizing are now cleaned of metadata like JPEG. New option “Keep the author and rights from the file” (on by default).</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkamedia</element>
+        <type>package</type>
         <version>2.1.5</version>
         <change>
             <item>Требования: Joomla 6.0 и выше, PHP 8.4 и выше — не ниже. Установщик пакета отказывает на старых версиях; сайту на PHP ниже 8.4 Joomla это обновление не предлагает.</item>
