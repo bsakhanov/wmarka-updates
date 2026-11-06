@@ -3,16 +3,16 @@
 <updates>
     <update>
         <name>Wmarka Media</name>
-        <description>Wmarka Media 2.1.3</description>
+        <description>Wmarka Media 2.1.4</description>
         <element>pkg_wmarkamedia</element>
         <type>package</type>
         <client>site</client>
-        <version>2.1.3</version>
-        <infourl title="Wmarka Media 2.1.3">https://github.com/bsakhanov/wmarka-updates/releases/tag/pkg_wmarkamedia-v2.1.3</infourl>
+        <version>2.1.4</version>
+        <infourl title="Wmarka Media 2.1.4">https://github.com/bsakhanov/wmarka-updates/releases/tag/pkg_wmarkamedia-v2.1.4</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/pkg_wmarkamedia-v2.1.3/pkg_wmarkamedia-v2.1.3.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/pkg_wmarkamedia-v2.1.4/pkg_wmarkamedia-v2.1.4.zip</downloadurl>
         </downloads>
-        <sha256>24f7b7516cfbb38067f80c7386e87ebc017fb559dd942f2a6c559e34d3044cc4</sha256>
+        <sha256>79c8f004f71f57c7039493507c06110c658ade2a3242bfd4b2bb2376a4a9a56c</sha256>
         <changelogurl>https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/pkg_wmarkamedia/changelog.xml</changelogurl>
         <maintainer>Beibit Sakhanov</maintainer>
         <maintainerurl>https://webmarka.kz</maintainerurl>

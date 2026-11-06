@@ -3,6 +3,23 @@
     <changelog>
         <element>pkg_wmarkamedia</element>
         <type>package</type>
+        <version>2.1.4</version>
+        <security>
+            <item>Сервер сайта больше не ходит по ссылкам из статей во внутреннюю сеть хостинга (127.0.0.1, частные адреса, 169.254.169.254) — ни прямо, ни переходом, который отдаёт чужой сайт: адрес проверяется до запроса и на каждом переходе, соединение закрепляется за проверенным адресом.</item>
+            <item>The site's server no longer follows links from articles into the hosting's internal network (127.0.0.1, private addresses, 169.254.169.254), neither directly nor through a redirect served by a foreign site: the address is checked before the request and on every redirect, and the connection is pinned to the checked address.</item>
+        </security>
+        <change>
+            <item>Закрытый адрес виден в карточке документа: «Адрес ведёт во внутреннюю сеть сервера»; веб-архив о нём не спрашивается.</item>
+            <item>A blocked address is shown in the document card: “The address leads into the server's own network”; the web archive is not asked about it.</item>
+        </change>
+        <addition>
+            <item>Пакет объявляет сервер обновлений: дальнейшие выпуски приходят в «Система → Обновление». Версия 2.1.4 ставится вручную один раз.</item>
+            <item>The package declares its update server: later releases arrive in System → Update. Version 2.1.4 is installed by hand once.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkamedia</element>
+        <type>package</type>
         <version>2.1.3</version>
         <change>
             <item>«Сделать копии» (кнопка на панели Файлотеки и команда консоли files copy) берёт все чужие документы без копии сразу — и те, у которых копия сегодня уже не вышла. Прежде кнопка после первой сборки пропускала умершие документы до следующего дня.</item>
