@@ -4,6 +4,25 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.9.0</version>
+        <security>
+            <item>Проверка «есть ли скрипты» разбирает разметку HTML5-парсером вместо регулярных выражений: обработчики через косую черту (img/src/onerror), сущности в адресах (&amp;#106;avascript:, java&amp;#9;script:) и вложенные шаблоны больше не обходят право «Загружать лонгриды со скриптами». Уже загруженные версии перепроверяются при обновлении.</item>
+            <item>HTML и SVG, открытые по прямой ссылке, изолированы заголовком CSP sandbox; добавлен nosniff. Правила пишет компонент в media/com_wmarkalongreads/items/.htaccess, для nginx они даны в руководстве.</item>
+            <item>В имени папки версии появилась случайная часть: файлы лонгрида под эмбарго или для зарегистрированных нельзя найти перебором номеров. Прежние папки переименовываются при обновлении вместе с адресами обложек.</item>
+            <item>Версия, помеченная как чистая от скриптов, открывается в админском просмотре под запретом скриптов (CSP).</item>
+            <item>The script check now parses the markup with an HTML5 parser instead of regular expressions: slash-separated handlers, entity-encoded URLs and nested templates no longer bypass the “Upload longreads with scripts” permission. Versions uploaded earlier are re-checked on update.</item>
+            <item>HTML and SVG opened by direct link are isolated with a CSP sandbox header, plus nosniff. The component writes the rules to media/com_wmarkalongreads/items/.htaccess; the manual gives them for nginx.</item>
+            <item>A random part in the version folder name: files of an embargoed or registered-only longread cannot be found by counting numbers. Existing folders are renamed on update together with the cover URLs.</item>
+            <item>A version marked script-free is previewed in the admin under a script ban (CSP).</item>
+        </security>
+        <addition>
+            <item>Требования: Joomla 6 и выше, PHP 8.4 и выше. На более старых версиях пакет не ставится.</item>
+            <item>Requirements: Joomla 6 or later, PHP 8.4 or later. The package will not install on older versions.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.8.0</version>
         <addition>
             <item>Поле «Брать файлы у другой карточки»: языковые карточки показывают одни и те же файлы, архив загружается один раз — в карточку-источник.</item>
