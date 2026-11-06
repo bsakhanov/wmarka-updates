@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+    <changelog>
+        <element>pkg_wmarkamedia</element>
+        <type>package</type>
+        <version>2.1.3</version>
+        <change>
+            <item>«Сделать копии» (кнопка на панели Файлотеки и команда консоли files copy) берёт все чужие документы без копии сразу — и те, у которых копия сегодня уже не вышла. Прежде кнопка после первой сборки пропускала умершие документы до следующего дня.</item>
+            <item>“Make copies” (the button on the Files panel and the console command files copy) takes every foreign document that has no copy at once, including those whose copy failed today. Before, after the first run the button skipped dead documents until the next day.</item>
+            <item>Суточная пауза после неудачи осталась у сверки и задачи планировщика: они не стучатся к мёртвым сайтам при каждом запуске.</item>
+            <item>The one-day pause after a failure stays for the check and the scheduler task, so they do not knock on dead sites on every run.</item>
+        </change>
+    </changelog>
+</changelogs>
