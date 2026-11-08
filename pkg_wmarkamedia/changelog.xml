@@ -3,6 +3,15 @@
     <changelog>
         <element>pkg_wmarkamedia</element>
         <type>package</type>
+        <version>2.1.8</version>
+        <addition>
+            <item>Кнопка «Видео» принимает диаграммы Datawrapper, Flourish и Infogram — ссылкой или кодом встраивания. На сайте диаграмма показывается сразу фреймом, без заставки и кнопки «пуск», во всю ширину текста и своей высоты; высота хранится в адресе диаграммы в тексте и переживает очистку текста. Поле «Видео» в материале понимает диаграммы так же.</item>
+            <item>The Video button accepts Datawrapper, Flourish and Infogram charts as a link or embed code. On the site the chart is shown as a frame right away, without a poster or play button, at the full text width and its own height; the height is kept in the chart address in the text and survives text cleaning. The Video field in articles understands charts too.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkamedia</element>
+        <type>package</type>
         <version>2.1.7</version>
         <change>
             <item>Кнопки «Фототека», «Видео» и «Файлотека» на панели TinyMCE стали штатными: значок без подписи, тот же размер, цвет и наведение, что у «Жирного» и «Ссылки»; значки одноцветные и следуют теме админки. Поведение и места на панели не менялись.</item>
