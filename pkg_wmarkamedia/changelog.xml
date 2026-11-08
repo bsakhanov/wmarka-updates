@@ -3,6 +3,15 @@
     <changelog>
         <element>pkg_wmarkamedia</element>
         <type>package</type>
+        <version>2.1.7</version>
+        <change>
+            <item>Кнопки «Фототека», «Видео» и «Файлотека» на панели TinyMCE стали штатными: значок без подписи, тот же размер, цвет и наведение, что у «Жирного» и «Ссылки»; значки одноцветные и следуют теме админки. Поведение и места на панели не менялись.</item>
+            <item>The Photo library, Video and Document library buttons on the TinyMCE toolbar are now native: an icon without a label, with the same size, colour and hover as Bold or Link; the icons are single-colour and follow the admin theme. Behaviour and toolbar placement are unchanged.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkamedia</element>
+        <type>package</type>
         <version>2.1.6</version>
         <fix>
             <item>Автор, строка об авторском праве и условия использования из файла снимка (EXIF, IPTC, XMP) больше не выбрасываются при загрузке: они записываются в пустые «Автор кадра», «Лицензия» и «Источник» и остаются в файле блоком XMP. GPS, камера, серийный номер и контакты фотографа по-прежнему удаляются.</item>
