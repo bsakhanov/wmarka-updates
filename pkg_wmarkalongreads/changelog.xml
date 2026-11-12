@@ -4,6 +4,25 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.10.0</version>
+        <addition>
+            <item>Обложка и картинка для соцсетей по языкам: имена cover-ru.jpg, og-kk.jpg (и в папке img/) находятся сами, в том числе при раскладке файлами index.ru.html. Запасные имена в метатегах: vrk:cover, vrk:page-title, vrk:lead, alias, og:image.</item>
+            <item>Проверки картинок: пропорция, наименьшая ширина и вес обложки, размер и вес картинки для соцсетей; названный в паспорте файл, которого нет в архиве, больше не пропадает молча. Пределы — в настройках (по умолчанию 1600×1000, 8:5, 300 КБ; 1200×630, 200 КБ).</item>
+            <item>Предупреждение о неполной локализации: одна обложка, одна картинка для соцсетей или один заголовок страницы у разных языков (при импорте и в карточке).</item>
+            <item>Заголовок страницы с названием сайта и тег title длиннее 75 знаков дают предупреждение.</item>
+            <item>Алиас при импорте: расхождение между языками и занятость другим лонгридом (с названием лонгрида) — ошибки; кириллица, заглавные, длина, год и служебные слова — предупреждения с тем, что получится у Joomla.</item>
+            <item>В плане импорта показан вес архива: страница, картинки и их доля, остальное.</item>
+            <item>Cover and social image per language: cover-ru.jpg, og-kk.jpg (also under img/) are found automatically, including with index.ru.html file layout. Fallback meta names: vrk:cover, vrk:page-title, vrk:lead, alias, og:image.</item>
+            <item>Image checks: ratio, smallest width and weight of the cover, size and weight of the social image; a file named in the passport but missing from the archive no longer vanishes silently. Limits are in the settings.</item>
+            <item>Incomplete localisation warning: the same cover, social image or page title in different languages (on import and in the card).</item>
+            <item>A page title with the site name, and a title tag over 75 characters, now give a warning.</item>
+            <item>Alias on import: a mismatch between languages and a clash with another longread (named) are errors; Cyrillic, capitals, length, a year or service words are warnings that show what Joomla will make of it.</item>
+            <item>The import plan shows the archive weight: page, images and their share, the rest.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.9.0</version>
         <security>
             <item>Проверка «есть ли скрипты» разбирает разметку HTML5-парсером вместо регулярных выражений: обработчики через косую черту (img/src/onerror), сущности в адресах (&amp;#106;avascript:, java&amp;#9;script:) и вложенные шаблоны больше не обходят право «Загружать лонгриды со скриптами». Уже загруженные версии перепроверяются при обновлении.</item>
