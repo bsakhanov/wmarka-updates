@@ -4,6 +4,15 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.11.0</version>
+        <change>
+            <item>Обложка карточки и картинка для соцсетей выбираются только через фототеку (Wmarka Media): кнопка «Найти в фототеке» или перетаскивание файла на поле; кнопки «Выбрать» нет. Сервер при сохранении отклоняет новое значение, которого нет в реестре фототеки; прежние значения (по шаблону, из архива) можно оставить или очистить. Без фототеки поле можно только очистить.</item>
+            <item>The card cover and the social image are chosen through the photo library only (Wmarka Media): the “Find in the library” button or dropping a file onto the field; there is no “Select” button. On save the server rejects a new value that is not in the library registry; earlier values (from the template, from the archive) can be kept or cleared. Without the library the field can only be cleared.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.10.0</version>
         <addition>
             <item>Обложка и картинка для соцсетей по языкам: имена cover-ru.jpg, og-kk.jpg (и в папке img/) находятся сами, в том числе при раскладке файлами index.ru.html. Запасные имена в метатегах: vrk:cover, vrk:page-title, vrk:lead, alias, og:image.</item>
