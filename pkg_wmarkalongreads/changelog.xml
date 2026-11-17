@@ -4,6 +4,27 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.11.3</version>
+        <addition>
+            <item>У полей «Обложка карточки» и «Картинка для соцсетей» появилась кнопка «Загрузить», как у полей картинок материала: файл с компьютера ложится в фототеку по её правилам и встаёт в поле.</item>
+            <item>The card cover and social image fields now have an “Upload” button like the article image fields: a file from your computer is stored in the photo library by its rules and put into the field.</item>
+        </addition>
+        <fix>
+            <item>Вместо текста у кнопки «Найти в фототеке» стояли языковые константы: язык фототеки не загружался на странице лонгрида. Исправлено (1.11.2).</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
+        <version>1.11.2</version>
+        <fix>
+            <item>У кнопки «Найти в фототеке» и подсказки о перетаскивании вместо текста стояли языковые константы: язык фототеки не загружался на странице лонгрида. Исправлено.</item>
+            <item>The “Find in the library” button and the drag-and-drop hint showed language constants instead of text: the library language file was not loaded on the longread page. Fixed.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.11.1</version>
         <fix>
             <item>Поля «Обложка карточки» и «Картинка для соцсетей» в 1.11.0 не рисовались: на вкладке «Изображения» были подписи без полей выбора. Исправлено.</item>
