@@ -3,6 +3,14 @@
     <changelog>
         <element>pkg_wmarka_mcp</element>
         <type>package</type>
+        <version>1.7.1</version>
+        <change>
+            <item>With Wmarka Media on the site, images the assistant uploads go into its library like a photo dropped into it: its processing, day folder, name rule (prefix-YYYYMMDD-NN-tail) and registry record. Before, they kept their incoming name plus a random tail.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarka_mcp</element>
+        <type>package</type>
         <version>1.7.0</version>
         <addition>
             <item>A refused workflow transition reports the reason the workflow plugin gave (for example: no cover, no tags).</item>
