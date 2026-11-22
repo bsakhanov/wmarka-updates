@@ -4,6 +4,15 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.12.0</version>
+        <addition>
+            <item>Страница лонгрида: у картинки для соцсетей указаны тип, ширина и высота (og:image:type, og:image:width, og:image:height, twitter:image:alt); картинка в JSON-LD — ImageObject с размерами; второй блок JSON-LD — хлебные крошки BreadcrumbList (главная → раздел лонгридов → лонгрид).</item>
+            <item>Longread page: the social image now carries its type, width and height (og:image:type, og:image:width, og:image:height, twitter:image:alt); the JSON-LD image is an ImageObject with dimensions; a second JSON-LD block adds a BreadcrumbList (home → longreads section → longread).</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.11.3</version>
         <addition>
             <item>У полей «Обложка карточки» и «Картинка для соцсетей» появилась кнопка «Загрузить», как у полей картинок материала: файл с компьютера ложится в фототеку по её правилам и встаёт в поле.</item>
