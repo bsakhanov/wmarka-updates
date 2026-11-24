@@ -4,6 +4,15 @@
     <changelog>
         <element>pkg_wmarkalongreads</element>
         <type>package</type>
+        <version>1.12.1</version>
+        <fix>
+            <item>Страница лонгрида: канонический адрес всегда без строки запроса (?utm_…, ?ln=); адрес ?ln=xx уходит кодом 301 на карточку этого языка, если она есть.</item>
+            <item>Longread page: the canonical address never carries the query string (?utm_…, ?ln=); an ?ln=xx address is redirected 301 to the card of that language if there is one.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>pkg_wmarkalongreads</element>
+        <type>package</type>
         <version>1.12.0</version>
         <addition>
             <item>Страница лонгрида: у картинки для соцсетей указаны тип, ширина и высота (og:image:type, og:image:width, og:image:height, twitter:image:alt); картинка в JSON-LD — ImageObject с размерами; второй блок JSON-LD — хлебные крошки BreadcrumbList (главная → раздел лонгридов → лонгрид).</item>
