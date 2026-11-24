@@ -4,6 +4,15 @@
     <changelog>
         <element>wmarkacanon</element>
         <type>plugin</type>
+        <version>1.1.3</version>
+        <fix>
+            <item>Правило сборки адресов работает и вне сайта (админка, консоль, ручной запуск задачи): карта сайта, собранная из админки, больше не получает адреса материалов через «Популярные новости».</item>
+            <item>The link-building rule now also works outside the site (administrator, console, running a task by hand): a sitemap built from the administrator no longer gets article URLs through “Popular news”.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>wmarkacanon</element>
+        <type>plugin</type>
         <version>1.1.2</version>
         <fix>
             <item>Метки: пункт меню для адреса выбирается по правилам роутера меток Joomla (последний подходящий), а не первый список меток языка.</item>
