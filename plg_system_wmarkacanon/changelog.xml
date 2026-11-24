@@ -4,6 +4,15 @@
     <changelog>
         <element>wmarkacanon</element>
         <type>plugin</type>
+        <version>1.1.0</version>
+        <addition>
+            <item>Метки: страница метки под чужим языковым префиксом (/t/accidents-en) перенаправляется 301 на адрес своего языка (/en/t/accidents-en); метка без опубликованных материалов своего языка получает noindex, follow.</item>
+            <item>Tags: a tag page under another language prefix (/t/accidents-en) is redirected 301 to its own language URL (/en/t/accidents-en); a tag without published articles in its language gets noindex, follow.</item>
+        </addition>
+    </changelog>
+    <changelog>
+        <element>wmarkacanon</element>
+        <type>plugin</type>
         <version>1.0.1</version>
         <addition>
             <item>Сервер обновлений: новые версии приходят в «Система → Обновление → Расширения»; казахский перевод настроек.</item>

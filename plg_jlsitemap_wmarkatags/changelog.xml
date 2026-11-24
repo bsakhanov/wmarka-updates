@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Журнал изменений для Joomla. Новую версию добавляйте сверху. -->
+<changelogs>
+    <changelog>
+        <element>wmarkatags</element>
+        <type>plugin</type>
+        <version>1.0.0</version>
+        <addition>
+            <item>Метки в карте JL Sitemap: адрес с языком метки, только метки с материалами своего языка, языковые версии через hreflang, lastmod по последнему материалу. Заменяет встроенный «JLSitemap — Метки».</item>
+            <item>Tags in the JL Sitemap: URL with the tag language, only tags with articles in their language, language versions via hreflang, lastmod from the latest article. Replaces the built-in JLSitemap - Tags.</item>
+        </addition>
+    </changelog>
+</changelogs>
