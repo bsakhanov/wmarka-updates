@@ -4,6 +4,15 @@
     <changelog>
         <element>wmarkacanon</element>
         <type>plugin</type>
+        <version>1.1.2</version>
+        <fix>
+            <item>Метки: пункт меню для адреса выбирается по правилам роутера меток Joomla (последний подходящий), а не первый список меток языка.</item>
+            <item>Tags: the menu item for the tag URL is chosen by the Joomla tags router rules (the last matching one), not the first tags list of the language.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>wmarkacanon</element>
+        <type>plugin</type>
         <version>1.1.1</version>
         <fix>
             <item>Метки: перенаправление ведёт на адрес через пункт меню меток своего языка (/en/t/accidents-en), а не на служебный /en/component/tags/tag/….</item>

@@ -3,17 +3,17 @@
 <updates>
     <update>
         <name>Webmarka Canonical</name>
-        <description>Webmarka Canonical 1.1.1</description>
+        <description>Webmarka Canonical 1.1.2</description>
         <element>wmarkacanon</element>
         <type>plugin</type>
         <folder>system</folder>
         <client>site</client>
-        <version>1.1.1</version>
-        <infourl title="Webmarka Canonical 1.1.1">https://github.com/bsakhanov/wmarka-updates/releases/tag/plg_system_wmarkacanon-v1.1.1</infourl>
+        <version>1.1.2</version>
+        <infourl title="Webmarka Canonical 1.1.2">https://github.com/bsakhanov/wmarka-updates/releases/tag/plg_system_wmarkacanon-v1.1.2</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/plg_system_wmarkacanon-v1.1.1/plg_system_wmarkacanon-v1.1.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/plg_system_wmarkacanon-v1.1.2/plg_system_wmarkacanon-v1.1.2.zip</downloadurl>
         </downloads>
-        <sha256>5f9bac42891414deae384dc153ac8fd8cced891fdac761e6484801ac9adce777</sha256>
+        <sha256>e4a331b648cd1f2661a7b34319006a429565a9a80d4a5d2cbfc9696a17490536</sha256>
         <changelogurl>https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/plg_system_wmarkacanon/changelog.xml</changelogurl>
         <maintainer>Beibit Sakhanov</maintainer>
         <maintainerurl>https://webmarka.kz</maintainerurl>
