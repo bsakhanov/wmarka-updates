@@ -4,6 +4,15 @@
     <changelog>
         <element>wmarkacanon</element>
         <type>plugin</type>
+        <version>1.1.1</version>
+        <fix>
+            <item>Метки: перенаправление ведёт на адрес через пункт меню меток своего языка (/en/t/accidents-en), а не на служебный /en/component/tags/tag/….</item>
+            <item>Tags: the redirect goes to the URL through the tags menu item of the tag's language (/en/t/accidents-en), not to the system URL /en/component/tags/tag/….</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>wmarkacanon</element>
+        <type>plugin</type>
         <version>1.1.0</version>
         <addition>
             <item>Метки: страница метки под чужим языковым префиксом (/t/accidents-en) перенаправляется 301 на адрес своего языка (/en/t/accidents-en); метка без опубликованных материалов своего языка получает noindex, follow.</item>
