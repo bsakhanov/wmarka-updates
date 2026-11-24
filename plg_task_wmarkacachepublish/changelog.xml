@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Журнал изменений для Joomla. Новую версию добавляйте сверху. -->
+<changelogs>
+    <changelog>
+        <element>wmarkacachepublish</element>
+        <type>plugin</type>
+        <version>1.0.0</version>
+        <addition>
+            <item>Задача планировщика очищает кеш материалов, меток, модулей и страниц в минуту, когда наступает время публикации, снятия или показа на главной.</item>
+            <item>A scheduler task clears the article, tag, module and page cache in the minute a publish, unpublish or featured time arrives.</item>
+        </addition>
+    </changelog>
+</changelogs>

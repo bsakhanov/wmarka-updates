@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Сервер обновлений: Webmarka Cache Publish. Файл пишет tools/build.py в репозитории расширения. -->
+<updates>
+    <update>
+        <name>Webmarka Cache Publish</name>
+        <description>Webmarka Cache Publish 1.0.0</description>
+        <element>wmarkacachepublish</element>
+        <type>plugin</type>
+        <folder>task</folder>
+        <client>site</client>
+        <version>1.0.0</version>
+        <infourl title="Webmarka Cache Publish 1.0.0">https://github.com/bsakhanov/wmarka-updates/releases/tag/plg_task_wmarkacachepublish-v1.0.0</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/bsakhanov/wmarka-updates/releases/download/plg_task_wmarkacachepublish-v1.0.0/plg_task_wmarkacachepublish-v1.0.0.zip</downloadurl>
+        </downloads>
+        <sha256>4b302ec28ed8f7c281cf5de53f7ee68a3317ffe2907009e58a2cacc1298252dd</sha256>
+        <changelogurl>https://raw.githubusercontent.com/bsakhanov/wmarka-updates/main/plg_task_wmarkacachepublish/changelog.xml</changelogurl>
+        <maintainer>Beibit Sakhanov</maintainer>
+        <maintainerurl>https://webmarka.kz</maintainerurl>
+        <targetplatform name="joomla" version="6\.[0-9]+" />
+        <php_minimum>8.3</php_minimum>
+    </update>
+</updates>
