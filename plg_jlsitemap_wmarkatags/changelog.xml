@@ -4,6 +4,15 @@
     <changelog>
         <element>wmarkatags</element>
         <type>plugin</type>
+        <version>1.0.1</version>
+        <fix>
+            <item>Английские и казахские метки получают адрес через пункт меню меток своего языка (/en/t/…, /kk/t/…), а не служебный /en/component/tags/tag/…, который JL Sitemap отбрасывал.</item>
+            <item>English and Kazakh tags get the URL through the tags menu item of their language (/en/t/…, /kk/t/…), not the system /en/component/tags/tag/… that JL Sitemap discarded.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>wmarkatags</element>
+        <type>plugin</type>
         <version>1.0.0</version>
         <addition>
             <item>Метки в карте JL Sitemap: адрес с языком метки, только метки с материалами своего языка, языковые версии через hreflang, lastmod по последнему материалу. Заменяет встроенный «JLSitemap — Метки».</item>
